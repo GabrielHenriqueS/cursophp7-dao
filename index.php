@@ -28,6 +28,8 @@ $aluno->insert();
 echo $aluno;
 */
 
+// Alterar um usuário
+/*
 $usuario = new Usuario();
 
 $usuario->loadbyId(7);
@@ -35,5 +37,16 @@ $usuario->loadbyId(7);
 $usuario->update("professor","!professor");
 
 echo $usuario;
+*/
 
+// Deletando um usuário
+/*
+$usuario = new Usuario();
+
+$usuario->loadbyId(7);
+
+$usuario->delete();
+
+echo $usuario;
+*/
 ?>
